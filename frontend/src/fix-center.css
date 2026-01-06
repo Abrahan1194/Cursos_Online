@@ -1,0 +1,24 @@
+/* Force centering for all containers */
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* Ensure body doesn't have weird margins */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Center everything properly */
+#root {
+    width: 100% !important;
+    max-width: 100vw !important;
+}
